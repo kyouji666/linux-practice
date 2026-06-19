@@ -1,4 +1,4 @@
-# Linux Practice
+# Linux Practice - DevOps Edition
 
 Сборник bash-скриптов для практики Linux и автоматизации.
 
