@@ -38,3 +38,4 @@ fi
 echo "Всего бэкапов: $(ls $BACKUP_DIR/*.tar.gz | wc -l)"
 
 find "$BACKUP_DIR" -name "*.tar.gz" -mtime +7 -delete
+# Скрипт бэкапа папок с логированием
