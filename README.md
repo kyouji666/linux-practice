@@ -31,3 +31,21 @@
 - SSH / SCP
 - tar / gzip
 - cron (для автоматизации)
+
+### Health Check сервера
+\`\`\`bash
+./health_check.sh
+\`\`\`
+
+Пример вывода:
+\`\`\`
+=== Health Check для myserver ===
+✓ SSH: доступен
+
+=== Аптайм ===
+up 2 hours, 15 minutes
+
+=== Память ===
+              total        used        free
+Mem:           6.0G        1.2G        4.5G
+\`\`\`
